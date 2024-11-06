@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/japaru/myFirstProgram/holamundo"
+)
 
 func main() {
-	fmt.Println("Hola, Mundo!")
-
-	fmt.Println("こんにちは世界!")
+	fmt.Println(holamundo.Saludo())
 }
